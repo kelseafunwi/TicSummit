@@ -45,7 +45,7 @@ export const Banner = () => {
                         </Row>
                     </Row>
 
-                    <Row>
+                    <Row className="position-relative">
                         <Row className="mt-4 mt-md-0 justify-content-center">
                             <Col sm={12} lg={8} >
                                 <Row className="d-flex gy-2 justify-content-between">
