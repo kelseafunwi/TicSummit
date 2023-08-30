@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import '../src/assets/aos/aos.js';
 import { NavBar } from './components/NavBar';
 import { Banner } from './components/Banner';
 import { Description } from './components/Description';

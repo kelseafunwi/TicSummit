@@ -9,7 +9,7 @@ export const Ticket = () => {
                 </div>
 
                 <Row className="mt-3">
-                    <Col xs={12} sm={6} lg={5} xl={4}>
+                    <Col data-aos='fade-up' data-aos-delay={100} xs={12} sm={6} lg={5} xl={4}>
                         <div className="ticket" data-aos="fade-up" >
                             <h3>Standard</h3>
                             <div className="price-range price-standard align-middle text-center">
@@ -25,7 +25,7 @@ export const Ticket = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} sm={6} xl={4}>
+                    <Col data-aos='fade-up' data-aos-delay={200} xs={12} sm={6} xl={4}>
                         <div className="ticket" data-aos="fade-up" data-aos-delay="100">
                             <h3>Professional</h3>
                                 <div className="price-range price-professional align-middle text-center">
@@ -42,7 +42,7 @@ export const Ticket = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} sm={6} xl={4}>
+                    <Col data-aos='fade-up' data-aos-delay={300} xs={12} sm={6} xl={4}>
                         <div className="ticket" data-aos="fade-up" data-aos-delay="200">
                             <h3>Business</h3>
                             <div className="price-range price-buisness align-middle text-center">
@@ -60,7 +60,7 @@ export const Ticket = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} sm={6}  xl={6}>
+                    <Col data-aos='fade-up' data-aos-delay={400} xs={12} sm={6}  xl={6}>
                         <div className="ticket" data-aos="fade-up" data-aos-delay="300">
                             <h3>VIP</h3>
                             <div className="price-range price-vip align-middle text-center">
@@ -79,7 +79,7 @@ export const Ticket = () => {
                         </div>
                     </Col>
 
-                    <Col xs={12} sm={6} xl={6}>
+                    <Col  data-aos='fade-up' data-aos-delay={500} xs={12} sm={6} xl={6}>
                         <div className="ticket" data-aos="fade-up" data-aos-delay="400">
                             <h3 className="individual">Individual</h3>
                             <ul>

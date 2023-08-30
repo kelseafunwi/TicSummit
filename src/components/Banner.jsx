@@ -11,7 +11,7 @@ export const Banner = () => {
 
     return (
         <section id="hero" className="hero  d-flex justify-content-center">
-            <Container>
+            <Container data-aos='fade-up'>
                 <Row className="d-flex flex-column h-100 justify-content-between align-items-stretch">
                     <Row>
 
@@ -19,7 +19,7 @@ export const Banner = () => {
 
                     <Row className="justify-content-center">
                         <Row className="hero-txt d-flex">
-                            <Col sm={8} lg={8} className="d-flex align-items-center">
+                            <Col sm={8} lg={8} className="d-flex align-items-center" data-aos='fade-left'>
                                 <div className="intro-complete " >
                                     <h2>DIGITAL ECONOMY & <br />
                                         BLOCKCHAIN TECHNOLOGY</h2>
@@ -33,7 +33,7 @@ export const Banner = () => {
                                 </div>
                             </Col>
 
-                            <Col sm={4} className="text-end position-relative">
+                            <Col sm={4} data-aos='fade-right' className="text-end position-relative">
                                 <Col className="date-join">
                                     <h2>the TiC summit.</h2>
                                     <h5>18-19 MAR 2024</h5>
@@ -45,7 +45,7 @@ export const Banner = () => {
                         </Row>
                     </Row>
 
-                    <Row className="position-relative">
+                    <Row className="position-relative" data-aos="fade-up">
                         <Row className="mt-4 mt-md-0 justify-content-center">
                             <Col sm={12} lg={8} >
                                 <Row className="d-flex gy-2 justify-content-between">
